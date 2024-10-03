@@ -1,0 +1,17 @@
+[web]
+192.187.56.3
+192.187.56.4
+
+[catalogue]
+192.187.56.3
+192.187.56.4
+
+[cart]
+192.187.56.3
+192.187.56.4
+
+
+[roboshop:children]  --> #group of groups
+web
+cart
+catalogue
